@@ -1,0 +1,4 @@
+"stddev_hsc" contains the standard deviation of each threshold bin obtained from the covariance matrices themselves.
+
+The covariance matrices of each threshold bins are also available in this directory.
+These correspond to the 10 radial bins of the measured signals and obtained by jackknife technique.

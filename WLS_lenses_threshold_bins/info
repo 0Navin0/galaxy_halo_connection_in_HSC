@@ -1,0 +1,15 @@
+#Uderstanding the columns of the files in this directory
+
+columns 5,6,7,8,14 => ESD, Sumwls_by_sumwl, radii, ESD_cross, r2bias
+
+  >> Steps to get modellable signals around lenses:
+  1) r2 bias correction was done first done on ESD signals.
+  2) subtract the same from that around random points ==> this is placed in another directory "WLS_randoms_threshold_bins"
+  3) boost the signal after step 2
+  This is the signal that we modeled in the paepr.
+
+  >> Steps to get cross signals around lenses:
+  ESD_cross * boost factor
+
+  >> boost factor = Sumwls_by_sumwl from lenses / Sumwls_by_sumwl from randoms
+
