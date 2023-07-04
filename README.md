@@ -69,5 +69,5 @@ This repository contains various measurements performed for the publication titl
 		* wls_zbin_\*.csv: Signals for redshift bins 1 and 2.
  
 	* WLS_covariance_matrices: Covariance matrices obtained from above measurements using Jackknife technique.
-		* cov_mat_z\*_stelM_thresh_\*.txt: Covariance matrices for the 10 radial bins.
+		* cov_mat_z\*\_stelM_thresh_\*.txt: Covariance matrices for the 10 radial bins.
 		* stddev_hsc: Square root of the diagonal components of the matrices = standad deviation of the lensing signal in each of the 10 radial bins, obtained for each stellar mass threshold sample.
