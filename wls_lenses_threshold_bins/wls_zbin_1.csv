@@ -1,11 +1,12 @@
-#It's a pandas dataFrame file.
-#
-#rp: Projected radial separation in covoming units of h^{-1} Mpc 
-#Remaining columns are in the format - zbin_{x}_stelM_thresh_{y} 
-#where 
-#	x: "redshift bin" taking values of either 1 for [0.30,0.55] bin or 2 for [0.55,0.80] bin.
-#	y: "log of stellar mass threshod in units of h^{-2} Msun" taking values between 8.6-11.2
-#
+#################################################################################################
+# It's a pandas dataFrame file.
+# 
+# rp: Projected radial separation in covoming units of h^{-1} Mpc 
+# Remaining columns are in the format - zbin_{x}_stelM_thresh_{y} 
+# where 
+# 	x: "redshift bin" taking values of either 1 for [0.30,0.55] bin or 2 for [0.55,0.80] bin.
+# 	y: "log of stellar mass threshod in units of h^{-2} Msun" taking values between 8.6-11.2
+#################################################################################################
 rp,zbin_1_stelM_thresh_8.6,zbin_1_stelM_thresh_8.8,zbin_1_stelM_thresh_9.0,zbin_1_stelM_thresh_9.2,zbin_1_stelM_thresh_9.4,zbin_1_stelM_thresh_9.6,zbin_1_stelM_thresh_9.8,zbin_1_stelM_thresh_10.0,zbin_1_stelM_thresh_10.2,zbin_1_stelM_thresh_10.4,zbin_1_stelM_thresh_10.6,zbin_1_stelM_thresh_10.8,zbin_1_stelM_thresh_11.0
 0.1239379,7.273864239060327,8.338316072710045,9.42008441908689,10.51207993473249,11.613066463694096,12.959999484719845,14.775448323813297,16.913190178334663,19.517437993014955,24.073790461884652,27.442939374570795,35.43826395704183,48.78482938568146
 0.1832741,5.1333662470766335,5.764933815337658,6.385332343994389,7.114776620327197,8.16662140259861,9.107467700617102,10.224891113258318,11.047549479247635,12.067582419433514,14.81403541421253,16.979996594584765,22.95438026200313,31.74274121145127
